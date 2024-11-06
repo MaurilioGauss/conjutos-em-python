@@ -1,7 +1,7 @@
 Conjuntos (sets) em Python são estruturas de dados poderosas e versáteis que oferecem funcionalidades específicas que não são diretamente disponíveis em listas ou tuplas. Eles são especialmente úteis em situações onde a unicidade dos elementos e a eficiência em operações de conjunto são importantes. A seguir, detalho quando e por que você deve usar conjuntos em Python:
 
-1. Armazenar Elementos Únicos
-
+1. Armazenar Elementos Únicos  
+  
 Descrição: Conjuntos garantem que cada elemento apareça apenas uma vez. Isso é útil quando você precisa eliminar duplicatas de uma coleção de dados.
 Exemplo:
 ```python
@@ -10,7 +10,7 @@ conjunto = set(lista)
 print(conjunto)  # Saída: {1, 2, 3, 4, 5}
 ````
 2. Testes de Pertinência Eficientes
-   
+  
 Descrição: Conjuntos são otimizados para operações de membro (verificar se um elemento está presente), tornando-os muito mais rápidos que listas ou tuplas para esse propósito, especialmente em grandes volumes de dados.
 Exemplo:
 
@@ -20,6 +20,7 @@ print(3 in conjunto)  # Saída: True
 print(6 in conjunto)  # Saída: False
 ```
 3. Operações de Conjuntos Matemáticos
+    
 Descrição: Conjuntos suportam operações matemáticas como união, interseção, diferença e diferença simétrica, que são úteis em diversas aplicações, como análise de dados, processamento de informações e resolução de problemas lógicos.
 Exemplos:
 ```python
