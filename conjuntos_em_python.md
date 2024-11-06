@@ -1,3 +1,5 @@
+# Utilizado conjunto em Python
+
 Conjuntos (sets) em Python são estruturas de dados poderosas e versáteis que oferecem funcionalidades específicas que não são diretamente disponíveis em listas ou tuplas. Eles são especialmente úteis em situações onde a unicidade dos elementos e a eficiência em operações de conjunto são importantes. A seguir, detalho quando e por que você deve usar conjuntos em Python:
 
 1. Armazenar Elementos Únicos  
